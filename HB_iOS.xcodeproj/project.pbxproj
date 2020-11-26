@@ -49,11 +49,9 @@
 		87C01E14239F7C01004B2793 /* AWTShareBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E00239F7C01004B2793 /* AWTShareBtn.m */; };
 		87C01E3A239F7D8F004B2793 /* AWTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E17239F7D8F004B2793 /* AWTVideoViewController.m */; };
 		87C01E41239F7D8F004B2793 /* AWTNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C01E20239F7D8F004B2793 /* AWTNextViewController.xib */; };
-		87C01E42239F7D8F004B2793 /* AWTIMageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C01E22239F7D8F004B2793 /* AWTIMageView.xib */; };
 		87C01E47239F7D8F004B2793 /* AWTNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E2C239F7D8F004B2793 /* AWTNextViewController.m */; };
 		87C01E48239F7D8F004B2793 /* AWTVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C01E2D239F7D8F004B2793 /* AWTVideoViewController.xib */; };
 		87C01E4A239F7D8F004B2793 /* AWTReleaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E30239F7D8F004B2793 /* AWTReleaseHomeViewController.m */; };
-		87C01E4B239F7D8F004B2793 /* AWTIMageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E33239F7D8F004B2793 /* AWTIMageView.m */; };
 		87C01E50239F7D8F004B2793 /* AWTReleaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C01E39239F7D8F004B2793 /* AWTReleaseHomeViewController.xib */; };
 		87C01E58239F7DF5004B2793 /* HMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E53239F7DF4004B2793 /* HMDataModel.m */; };
 		87C01E59239F7DF5004B2793 /* HMCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C01E54239F7DF4004B2793 /* HMCacheTool.m */; };
@@ -167,13 +165,10 @@
 		87C01E1A239F7D8F004B2793 /* AWTNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTNextViewController.h; sourceTree = "<group>"; };
 		87C01E1E239F7D8F004B2793 /* AWTReleaseHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTReleaseHomeViewController.h; sourceTree = "<group>"; };
 		87C01E20239F7D8F004B2793 /* AWTNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTNextViewController.xib; sourceTree = "<group>"; };
-		87C01E22239F7D8F004B2793 /* AWTIMageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTIMageView.xib; sourceTree = "<group>"; };
-		87C01E28239F7D8F004B2793 /* AWTIMageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTIMageView.h; sourceTree = "<group>"; };
 		87C01E29239F7D8F004B2793 /* AWTVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTVideoViewController.h; sourceTree = "<group>"; };
 		87C01E2C239F7D8F004B2793 /* AWTNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTNextViewController.m; sourceTree = "<group>"; };
 		87C01E2D239F7D8F004B2793 /* AWTVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTVideoViewController.xib; sourceTree = "<group>"; };
 		87C01E30239F7D8F004B2793 /* AWTReleaseHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTReleaseHomeViewController.m; sourceTree = "<group>"; };
-		87C01E33239F7D8F004B2793 /* AWTIMageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTIMageView.m; sourceTree = "<group>"; };
 		87C01E39239F7D8F004B2793 /* AWTReleaseHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTReleaseHomeViewController.xib; sourceTree = "<group>"; };
 		87C01E52239F7DF4004B2793 /* HMHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHttpTool.h; sourceTree = "<group>"; };
 		87C01E53239F7DF4004B2793 /* HMDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDataModel.m; sourceTree = "<group>"; };
@@ -413,9 +408,6 @@
 		87C01DFA239F7C01004B2793 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				87C01E22239F7D8F004B2793 /* AWTIMageView.xib */,
-				87C01E28239F7D8F004B2793 /* AWTIMageView.h */,
-				87C01E33239F7D8F004B2793 /* AWTIMageView.m */,
 				87EE95C123C57063007E3D09 /* TZTestCell.h */,
 				87EE95C023C57063007E3D09 /* TZTestCell.m */,
 				87C01DFD239F7C01004B2793 /* SendVideoView */,
@@ -598,7 +590,6 @@
 				87C01E50239F7D8F004B2793 /* AWTReleaseHomeViewController.xib in Resources */,
 				87C01E48239F7D8F004B2793 /* AWTVideoViewController.xib in Resources */,
 				879ACD3B236280000027C080 /* LaunchScreen.storyboard in Resources */,
-				87C01E42239F7D8F004B2793 /* AWTIMageView.xib in Resources */,
 				879ACD38236280000027C080 /* Assets.xcassets in Resources */,
 				879ACD36236280000027C080 /* Main.storyboard in Resources */,
 				87C01E41239F7D8F004B2793 /* AWTNextViewController.xib in Resources */,
@@ -670,7 +661,6 @@
 				87C01E07239F7C01004B2793 /* IWTAlertView.m in Sources */,
 				87EE95CE23C58362007E3D09 /* AWTPhotoView.m in Sources */,
 				87A90E8123B4555900656B55 /* TZPhotoPickerController.m in Sources */,
-				87C01E4B239F7D8F004B2793 /* AWTIMageView.m in Sources */,
 				879ACD3E236280000027C080 /* main.m in Sources */,
 				87A90E7923B4555900656B55 /* TZVideoPlayerController.m in Sources */,
 				87A90E8523B4555900656B55 /* TZGifPhotoPreviewController.m in Sources */,
