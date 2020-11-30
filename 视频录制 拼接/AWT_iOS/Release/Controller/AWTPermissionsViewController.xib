@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AWTPermissionsViewController">
+            <connections>
+                <outlet property="album" destination="A73-Q7-e1g" id="tSX-J3-ibF"/>
+                <outlet property="microBtn" destination="Kcs-dd-yo5" id="Zxk-Cr-dJF"/>
+                <outlet property="photoBtn" destination="Ig5-O8-oro" id="sPp-mG-nKe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VxE-BW-YGC">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VAf-98-pdg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcs-dd-yo5">
+                                <rect key="frame" x="40" y="706" width="334" height="60"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.72549019609999998" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="M68-vC-5wG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="授权启用麦克风"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startMicro:" destination="-1" eventType="touchUpInside" id="xyq-Zp-oHB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A73-Q7-e1g">
+                                <rect key="frame" x="40" y="621" width="334" height="60"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.72549019609999998" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Voz-Iu-I1o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="授权启用相机"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startAlum:" destination="-1" eventType="touchUpInside" id="938-bM-X4U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig5-O8-oro">
+                                <rect key="frame" x="40" y="536" width="334" height="60"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.72549019609999998" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="tY8-y5-uAo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="授权启用相机"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startPhoto:" destination="-1" eventType="touchUpInside" id="mZR-Sp-Fcy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您可以随时通过手机设置关闭这些授权" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq7-ye-rT2">
+                                <rect key="frame" x="85.5" y="466" width="243" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="eao-cw-CxO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.56470588235294117" green="0.57647058823529407" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开启这些权限发布作品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKa-KI-CXA">
+                                <rect key="frame" x="85.5" y="427" width="243.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.19215686274509802" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41L-VR-wlp">
+                                <rect key="frame" x="187" y="806" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="d9j-ll-S4A"/>
+                                    <constraint firstAttribute="height" constant="40" id="vPC-Yb-XOC"/>
+                                </constraints>
+                                <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="close:" destination="-1" eventType="touchUpInside" id="dyx-IW-UA3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Kcs-dd-yo5" firstAttribute="top" secondItem="A73-Q7-e1g" secondAttribute="bottom" constant="25" id="2xX-2n-Agz"/>
+                            <constraint firstItem="Aq7-ye-rT2" firstAttribute="centerX" secondItem="VAf-98-pdg" secondAttribute="centerX" id="320-5c-ACF"/>
+                            <constraint firstItem="Ig5-O8-oro" firstAttribute="top" secondItem="Aq7-ye-rT2" secondAttribute="bottom" constant="50" id="BlT-cj-ctl"/>
+                            <constraint firstItem="Aq7-ye-rT2" firstAttribute="top" secondItem="gKa-KI-CXA" secondAttribute="bottom" constant="10" id="J0K-EG-V0a"/>
+                            <constraint firstItem="A73-Q7-e1g" firstAttribute="top" secondItem="Ig5-O8-oro" secondAttribute="bottom" constant="25" id="V3Z-a1-ZVA"/>
+                            <constraint firstAttribute="trailing" secondItem="Kcs-dd-yo5" secondAttribute="trailing" constant="40" id="Zxj-ad-ECC"/>
+                            <constraint firstItem="Kcs-dd-yo5" firstAttribute="leading" secondItem="VAf-98-pdg" secondAttribute="leading" constant="40" id="aE1-0D-EcX"/>
+                            <constraint firstItem="A73-Q7-e1g" firstAttribute="leading" secondItem="Kcs-dd-yo5" secondAttribute="leading" id="bUF-fN-Img"/>
+                            <constraint firstItem="Ig5-O8-oro" firstAttribute="leading" secondItem="A73-Q7-e1g" secondAttribute="leading" id="d6g-y2-yEH"/>
+                            <constraint firstItem="Ig5-O8-oro" firstAttribute="trailing" secondItem="A73-Q7-e1g" secondAttribute="trailing" id="f1b-hW-FMp"/>
+                            <constraint firstItem="gKa-KI-CXA" firstAttribute="centerX" secondItem="VAf-98-pdg" secondAttribute="centerX" id="mqa-0m-w80"/>
+                            <constraint firstItem="41L-VR-wlp" firstAttribute="top" secondItem="Kcs-dd-yo5" secondAttribute="bottom" constant="40" id="sI0-nH-RdO"/>
+                            <constraint firstAttribute="bottom" secondItem="41L-VR-wlp" secondAttribute="bottom" constant="50" id="ub2-yo-Vbf"/>
+                            <constraint firstItem="41L-VR-wlp" firstAttribute="centerX" secondItem="VAf-98-pdg" secondAttribute="centerX" id="y77-dE-Vs0"/>
+                            <constraint firstItem="A73-Q7-e1g" firstAttribute="trailing" secondItem="Kcs-dd-yo5" secondAttribute="trailing" id="zu4-hh-NXy"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VxE-BW-YGC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cbc-Mm-ntd"/>
+                <constraint firstAttribute="bottom" secondItem="VxE-BW-YGC" secondAttribute="bottom" id="lHk-p3-4Q9"/>
+                <constraint firstAttribute="trailing" secondItem="VxE-BW-YGC" secondAttribute="trailing" id="u52-zc-4mK"/>
+                <constraint firstItem="VxE-BW-YGC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vh2-vA-pbH"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="84.375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="24" height="24"/>
+    </resources>
+</document>

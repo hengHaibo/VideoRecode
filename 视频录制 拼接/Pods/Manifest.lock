@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManager (6.5.0)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Masonry
+  - ReactiveObjC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - Masonry
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: b98293ab025f7c8dc54136273f69b9024b311b2c
+
+COCOAPODS: 1.6.0

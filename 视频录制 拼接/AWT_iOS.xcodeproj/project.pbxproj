@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180582BD2365A41B001F8C80 /* NSFileManager+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 180582BC2365A41B001F8C80 /* NSFileManager+Additions.m */; };
+		1836995B236C78220008F6CC /* DeviceDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836995A236C78220008F6CC /* DeviceDirection.m */; };
+		186A7944236DDF40006CC7A0 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7927236DDF40006CC7A0 /* TZImageCropManager.m */; };
+		186A7945236DDF40006CC7A0 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7929236DDF40006CC7A0 /* TZAssetCell.m */; };
+		186A7946236DDF40006CC7A0 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A792A236DDF40006CC7A0 /* TZVideoPlayerController.m */; };
+		186A7947236DDF40006CC7A0 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A792B236DDF40006CC7A0 /* TZAssetModel.m */; };
+		186A7948236DDF40006CC7A0 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A792C236DDF40006CC7A0 /* NSBundle+TZImagePicker.m */; };
+		186A7949236DDF40006CC7A0 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A792F236DDF40006CC7A0 /* UIView+Layout.m */; };
+		186A794A236DDF40006CC7A0 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7930236DDF40006CC7A0 /* TZPhotoPreviewController.m */; };
+		186A794B236DDF40006CC7A0 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186A7931236DDF40006CC7A0 /* TZImagePickerController.bundle */; };
+		186A794C236DDF40006CC7A0 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7932236DDF40006CC7A0 /* TZProgressView.m */; };
+		186A794D236DDF40006CC7A0 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7936236DDF40006CC7A0 /* TZImageManager.m */; };
+		186A794E236DDF40006CC7A0 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7938236DDF40006CC7A0 /* TZPhotoPickerController.m */; };
+		186A794F236DDF40006CC7A0 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7939236DDF40006CC7A0 /* TZPhotoPreviewCell.m */; };
+		186A7950236DDF40006CC7A0 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A793F236DDF40006CC7A0 /* TZImagePickerController.m */; };
+		186A7951236DDF40006CC7A0 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7940236DDF40006CC7A0 /* TZLocationManager.m */; };
+		186A7952236DDF40006CC7A0 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7941236DDF40006CC7A0 /* TZGifPhotoPreviewController.m */; };
+		186A7953236DDF40006CC7A0 /* TZImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A7942236DDF40006CC7A0 /* TZImageRequestOperation.m */; };
+		188328662369E465007E691F /* AWTVideoEditorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 188328652369E465007E691F /* AWTVideoEditorTool.m */; };
+		18C4ECAC236EDA1C00470E90 /* AWTSendPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4ECAA236EDA1C00470E90 /* AWTSendPhotoViewController.m */; };
+		18C4ECAD236EDA1C00470E90 /* AWTSendPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4ECAB236EDA1C00470E90 /* AWTSendPhotoViewController.xib */; };
+		18C4ECB0236EDF7600470E90 /* TZTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C4ECAF236EDF7600470E90 /* TZTestCell.m */; };
+		18D3727F23643A1400662731 /* AWTCaptureVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3727E23643A1400662731 /* AWTCaptureVideoTool.m */; };
+		87414EFC2366FBA300E2FCB1 /* AWTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87414EF72366FBA300E2FCB1 /* AWTVideoViewController.m */; };
+		87414EFD2366FBA300E2FCB1 /* AWTVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87414EF82366FBA300E2FCB1 /* AWTVideoViewController.xib */; };
+		87414EFE2366FBA300E2FCB1 /* AWTReleaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87414EF92366FBA300E2FCB1 /* AWTReleaseHomeViewController.m */; };
+		87414EFF2366FBA300E2FCB1 /* AWTReleaseHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87414EFB2366FBA300E2FCB1 /* AWTReleaseHomeViewController.xib */; };
+		87414F022367059400E2FCB1 /* AWTSendVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87414F012367059400E2FCB1 /* AWTSendVideoViewController.m */; };
+		878EC545236FC84200426F37 /* AWTNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EC543236FC84200426F37 /* AWTNextViewController.m */; };
+		878EC546236FC84200426F37 /* AWTNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878EC544236FC84200426F37 /* AWTNextViewController.xib */; };
+		878EC54A23702E5200426F37 /* AWTPermissionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EC54823702E5200426F37 /* AWTPermissionsViewController.m */; };
+		878EC54B23702E5200426F37 /* AWTPermissionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878EC54923702E5200426F37 /* AWTPermissionsViewController.xib */; };
+		879ACD30236280000027C080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD2F236280000027C080 /* AppDelegate.m */; };
+		879ACD33236280000027C080 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD32236280000027C080 /* ViewController.m */; };
+		879ACD36236280000027C080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879ACD34236280000027C080 /* Main.storyboard */; };
+		879ACD38236280000027C080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879ACD37236280000027C080 /* Assets.xcassets */; };
+		879ACD3B236280000027C080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879ACD39236280000027C080 /* LaunchScreen.storyboard */; };
+		879ACD3E236280000027C080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD3D236280000027C080 /* main.m */; };
+		879ACD48236280000027C080 /* AWT_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD47236280000027C080 /* AWT_iOSTests.m */; };
+		879ACD53236280000027C080 /* AWT_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD52236280000027C080 /* AWT_iOSUITests.m */; };
+		879ACD772362994E0027C080 /* UIView+AWTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD762362994E0027C080 /* UIView+AWTView.m */; };
+		879ACD842362E8B90027C080 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 879ACD832362E8B90027C080 /* UIColor+Hex.m */; };
+		87FBBD87236BC898007E2B0D /* AWTSendVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87FBBD86236BC898007E2B0D /* AWTSendVideoViewController.xib */; };
+		87FBBD93236BD44E007E2B0D /* AWTRleaseBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBBD8D236BD44D007E2B0D /* AWTRleaseBtn.m */; };
+		87FBBD94236BD44E007E2B0D /* AWTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBBD8E236BD44E007E2B0D /* AWTPhotoView.m */; };
+		87FBBD95236BD44E007E2B0D /* AWTOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBBD90236BD44E007E2B0D /* AWTOverLayView.m */; };
+		87FBBD96236BD44E007E2B0D /* AWTPrevieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBBD92236BD44E007E2B0D /* AWTPrevieView.m */; };
+		87FBBD99236BD47D007E2B0D /* AWTSendVideoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBBD98236BD47D007E2B0D /* AWTSendVideoTextView.m */; };
+		AC8957778384960F55468B8E /* Pods_AWT_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E02F98D6E0A833322444E /* Pods_AWT_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879ACD44236280000027C080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879ACD23236280000027C080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879ACD2A236280000027C080;
+			remoteInfo = AWT_iOS;
+		};
+		879ACD4F236280000027C080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879ACD23236280000027C080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879ACD2A236280000027C080;
+			remoteInfo = AWT_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180582BB2365A41B001F8C80 /* NSFileManager+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Additions.h"; sourceTree = "<group>"; };
+		180582BC2365A41B001F8C80 /* NSFileManager+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Additions.m"; sourceTree = "<group>"; };
+		18369959236C78220008F6CC /* DeviceDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDirection.h; sourceTree = "<group>"; };
+		1836995A236C78220008F6CC /* DeviceDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDirection.m; sourceTree = "<group>"; };
+		186A7925236DDF40006CC7A0 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		186A7926236DDF40006CC7A0 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		186A7927236DDF40006CC7A0 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		186A7928236DDF40006CC7A0 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		186A7929236DDF40006CC7A0 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		186A792A236DDF40006CC7A0 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		186A792B236DDF40006CC7A0 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		186A792C236DDF40006CC7A0 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		186A792D236DDF40006CC7A0 /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		186A792E236DDF40006CC7A0 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		186A792F236DDF40006CC7A0 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		186A7930236DDF40006CC7A0 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		186A7931236DDF40006CC7A0 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		186A7932236DDF40006CC7A0 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		186A7933236DDF40006CC7A0 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		186A7934236DDF40006CC7A0 /* TZImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageRequestOperation.h; sourceTree = "<group>"; };
+		186A7935236DDF40006CC7A0 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		186A7936236DDF40006CC7A0 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		186A7937236DDF40006CC7A0 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		186A7938236DDF40006CC7A0 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		186A7939236DDF40006CC7A0 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		186A793A236DDF40006CC7A0 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		186A793B236DDF40006CC7A0 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		186A793C236DDF40006CC7A0 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		186A793D236DDF40006CC7A0 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		186A793E236DDF40006CC7A0 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		186A793F236DDF40006CC7A0 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		186A7940236DDF40006CC7A0 /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		186A7941236DDF40006CC7A0 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		186A7942236DDF40006CC7A0 /* TZImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageRequestOperation.m; sourceTree = "<group>"; };
+		186A7943236DDF40006CC7A0 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		188328642369E465007E691F /* AWTVideoEditorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTVideoEditorTool.h; sourceTree = "<group>"; };
+		188328652369E465007E691F /* AWTVideoEditorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTVideoEditorTool.m; sourceTree = "<group>"; };
+		18C4ECA9236EDA1C00470E90 /* AWTSendPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTSendPhotoViewController.h; sourceTree = "<group>"; };
+		18C4ECAA236EDA1C00470E90 /* AWTSendPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTSendPhotoViewController.m; sourceTree = "<group>"; };
+		18C4ECAB236EDA1C00470E90 /* AWTSendPhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AWTSendPhotoViewController.xib; sourceTree = "<group>"; };
+		18C4ECAE236EDF7600470E90 /* TZTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTestCell.h; sourceTree = "<group>"; };
+		18C4ECAF236EDF7600470E90 /* TZTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTestCell.m; sourceTree = "<group>"; };
+		18D3727D23643A1400662731 /* AWTCaptureVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTCaptureVideoTool.h; sourceTree = "<group>"; };
+		18D3727E23643A1400662731 /* AWTCaptureVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTCaptureVideoTool.m; sourceTree = "<group>"; };
+		560C0D91FC37ED0D63B36013 /* Pods-AWT_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWT_iOS.release.xcconfig"; path = "Target Support Files/Pods-AWT_iOS/Pods-AWT_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		87414EF62366FBA300E2FCB1 /* AWTVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTVideoViewController.h; sourceTree = "<group>"; };
+		87414EF72366FBA300E2FCB1 /* AWTVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTVideoViewController.m; sourceTree = "<group>"; };
+		87414EF82366FBA300E2FCB1 /* AWTVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTVideoViewController.xib; sourceTree = "<group>"; };
+		87414EF92366FBA300E2FCB1 /* AWTReleaseHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTReleaseHomeViewController.m; sourceTree = "<group>"; };
+		87414EFA2366FBA300E2FCB1 /* AWTReleaseHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTReleaseHomeViewController.h; sourceTree = "<group>"; };
+		87414EFB2366FBA300E2FCB1 /* AWTReleaseHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTReleaseHomeViewController.xib; sourceTree = "<group>"; };
+		87414F002367059400E2FCB1 /* AWTSendVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTSendVideoViewController.h; sourceTree = "<group>"; };
+		87414F012367059400E2FCB1 /* AWTSendVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTSendVideoViewController.m; sourceTree = "<group>"; };
+		878EC542236FC84200426F37 /* AWTNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTNextViewController.h; sourceTree = "<group>"; };
+		878EC543236FC84200426F37 /* AWTNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTNextViewController.m; sourceTree = "<group>"; };
+		878EC544236FC84200426F37 /* AWTNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AWTNextViewController.xib; sourceTree = "<group>"; };
+		878EC54723702E5200426F37 /* AWTPermissionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTPermissionsViewController.h; sourceTree = "<group>"; };
+		878EC54823702E5200426F37 /* AWTPermissionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTPermissionsViewController.m; sourceTree = "<group>"; };
+		878EC54923702E5200426F37 /* AWTPermissionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AWTPermissionsViewController.xib; sourceTree = "<group>"; };
+		879ACD2B236280000027C080 /* AWT_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWT_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879ACD2E236280000027C080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		879ACD2F236280000027C080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		879ACD31236280000027C080 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		879ACD32236280000027C080 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		879ACD35236280000027C080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879ACD37236280000027C080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879ACD3A236280000027C080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879ACD3C236280000027C080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879ACD3D236280000027C080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		879ACD43236280000027C080 /* AWT_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWT_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879ACD47236280000027C080 /* AWT_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWT_iOSTests.m; sourceTree = "<group>"; };
+		879ACD49236280000027C080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879ACD4E236280000027C080 /* AWT_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWT_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879ACD52236280000027C080 /* AWT_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWT_iOSUITests.m; sourceTree = "<group>"; };
+		879ACD54236280000027C080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879ACD752362994E0027C080 /* UIView+AWTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AWTView.h"; sourceTree = "<group>"; };
+		879ACD762362994E0027C080 /* UIView+AWTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AWTView.m"; sourceTree = "<group>"; };
+		879ACD822362E8B90027C080 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		879ACD832362E8B90027C080 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		87FBBD86236BC898007E2B0D /* AWTSendVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AWTSendVideoViewController.xib; sourceTree = "<group>"; };
+		87FBBD8B236BD44D007E2B0D /* AWTPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTPhotoView.h; sourceTree = "<group>"; };
+		87FBBD8C236BD44D007E2B0D /* AWTRleaseBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTRleaseBtn.h; sourceTree = "<group>"; };
+		87FBBD8D236BD44D007E2B0D /* AWTRleaseBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTRleaseBtn.m; sourceTree = "<group>"; };
+		87FBBD8E236BD44E007E2B0D /* AWTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTPhotoView.m; sourceTree = "<group>"; };
+		87FBBD8F236BD44E007E2B0D /* AWTPrevieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTPrevieView.h; sourceTree = "<group>"; };
+		87FBBD90236BD44E007E2B0D /* AWTOverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTOverLayView.m; sourceTree = "<group>"; };
+		87FBBD91236BD44E007E2B0D /* AWTOverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTOverLayView.h; sourceTree = "<group>"; };
+		87FBBD92236BD44E007E2B0D /* AWTPrevieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTPrevieView.m; sourceTree = "<group>"; };
+		87FBBD97236BD47D007E2B0D /* AWTSendVideoTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWTSendVideoTextView.h; sourceTree = "<group>"; };
+		87FBBD98236BD47D007E2B0D /* AWTSendVideoTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTSendVideoTextView.m; sourceTree = "<group>"; };
+		D52222965891B8D36F03CC6A /* Pods-AWT_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWT_iOS.debug.xcconfig"; path = "Target Support Files/Pods-AWT_iOS/Pods-AWT_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6E02F98D6E0A833322444E /* Pods_AWT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879ACD28236280000027C080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8957778384960F55468B8E /* Pods_AWT_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD40236280000027C080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD4B236280000027C080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186A78CF236DCECD006CC7A0 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				186A7924236DDF40006CC7A0 /* TZImagePickerController */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		186A7924236DDF40006CC7A0 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				186A792E236DDF40006CC7A0 /* TZImagePickerController.h */,
+				186A793F236DDF40006CC7A0 /* TZImagePickerController.m */,
+				186A7938236DDF40006CC7A0 /* TZPhotoPickerController.m */,
+				186A7925236DDF40006CC7A0 /* TZPhotoPreviewCell.h */,
+				186A7926236DDF40006CC7A0 /* TZPhotoPickerController.h */,
+				186A7927236DDF40006CC7A0 /* TZImageCropManager.m */,
+				186A7928236DDF40006CC7A0 /* TZImageManager.h */,
+				186A7929236DDF40006CC7A0 /* TZAssetCell.m */,
+				186A792A236DDF40006CC7A0 /* TZVideoPlayerController.m */,
+				186A792B236DDF40006CC7A0 /* TZAssetModel.m */,
+				186A792C236DDF40006CC7A0 /* NSBundle+TZImagePicker.m */,
+				186A792D236DDF40006CC7A0 /* TZLocationManager.h */,
+				186A792F236DDF40006CC7A0 /* UIView+Layout.m */,
+				186A7930236DDF40006CC7A0 /* TZPhotoPreviewController.m */,
+				186A7931236DDF40006CC7A0 /* TZImagePickerController.bundle */,
+				186A7932236DDF40006CC7A0 /* TZProgressView.m */,
+				186A7933236DDF40006CC7A0 /* TZGifPhotoPreviewController.h */,
+				186A7934236DDF40006CC7A0 /* TZImageRequestOperation.h */,
+				186A7935236DDF40006CC7A0 /* TZAssetCell.h */,
+				186A7936236DDF40006CC7A0 /* TZImageManager.m */,
+				186A7937236DDF40006CC7A0 /* TZImageCropManager.h */,
+				186A7939236DDF40006CC7A0 /* TZPhotoPreviewCell.m */,
+				186A793A236DDF40006CC7A0 /* NSBundle+TZImagePicker.h */,
+				186A793B236DDF40006CC7A0 /* TZAssetModel.h */,
+				186A793C236DDF40006CC7A0 /* TZVideoPlayerController.h */,
+				186A793D236DDF40006CC7A0 /* TZPhotoPreviewController.h */,
+				186A793E236DDF40006CC7A0 /* UIView+Layout.h */,
+				186A7940236DDF40006CC7A0 /* TZLocationManager.m */,
+				186A7941236DDF40006CC7A0 /* TZGifPhotoPreviewController.m */,
+				186A7942236DDF40006CC7A0 /* TZImageRequestOperation.m */,
+				186A7943236DDF40006CC7A0 /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		79B55295691E983DBF05DFDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52222965891B8D36F03CC6A /* Pods-AWT_iOS.debug.xcconfig */,
+				560C0D91FC37ED0D63B36013 /* Pods-AWT_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		879ACD22236280000027C080 = {
+			isa = PBXGroup;
+			children = (
+				879ACD2D236280000027C080 /* AWT_iOS */,
+				879ACD46236280000027C080 /* AWT_iOSTests */,
+				879ACD51236280000027C080 /* AWT_iOSUITests */,
+				879ACD2C236280000027C080 /* Products */,
+				79B55295691E983DBF05DFDE /* Pods */,
+				EECB01ADFE8805AA0862D12B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		879ACD2C236280000027C080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD2B236280000027C080 /* AWT_iOS.app */,
+				879ACD43236280000027C080 /* AWT_iOSTests.xctest */,
+				879ACD4E236280000027C080 /* AWT_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879ACD2D236280000027C080 /* AWT_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD60236287870027C080 /* Release */,
+				879ACD65236287870027C080 /* Tool */,
+				879ACD2E236280000027C080 /* AppDelegate.h */,
+				879ACD2F236280000027C080 /* AppDelegate.m */,
+				879ACD31236280000027C080 /* ViewController.h */,
+				879ACD32236280000027C080 /* ViewController.m */,
+				879ACD34236280000027C080 /* Main.storyboard */,
+				879ACD37236280000027C080 /* Assets.xcassets */,
+				879ACD39236280000027C080 /* LaunchScreen.storyboard */,
+				879ACD3C236280000027C080 /* Info.plist */,
+				879ACD3D236280000027C080 /* main.m */,
+			);
+			path = AWT_iOS;
+			sourceTree = "<group>";
+		};
+		879ACD46236280000027C080 /* AWT_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD47236280000027C080 /* AWT_iOSTests.m */,
+				879ACD49236280000027C080 /* Info.plist */,
+			);
+			path = AWT_iOSTests;
+			sourceTree = "<group>";
+		};
+		879ACD51236280000027C080 /* AWT_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD52236280000027C080 /* AWT_iOSUITests.m */,
+				879ACD54236280000027C080 /* Info.plist */,
+			);
+			path = AWT_iOSUITests;
+			sourceTree = "<group>";
+		};
+		879ACD60236287870027C080 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				186A78CF236DCECD006CC7A0 /* Photos */,
+				879ACD61236287870027C080 /* ViewModel */,
+				879ACD62236287870027C080 /* Controller */,
+				879ACD63236287870027C080 /* Model */,
+				879ACD64236287870027C080 /* View */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		879ACD61236287870027C080 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		879ACD62236287870027C080 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87414EFA2366FBA300E2FCB1 /* AWTReleaseHomeViewController.h */,
+				87414EF92366FBA300E2FCB1 /* AWTReleaseHomeViewController.m */,
+				87414EFB2366FBA300E2FCB1 /* AWTReleaseHomeViewController.xib */,
+				878EC54723702E5200426F37 /* AWTPermissionsViewController.h */,
+				878EC54823702E5200426F37 /* AWTPermissionsViewController.m */,
+				878EC54923702E5200426F37 /* AWTPermissionsViewController.xib */,
+				87414EF62366FBA300E2FCB1 /* AWTVideoViewController.h */,
+				87414EF72366FBA300E2FCB1 /* AWTVideoViewController.m */,
+				87414EF82366FBA300E2FCB1 /* AWTVideoViewController.xib */,
+				878EC542236FC84200426F37 /* AWTNextViewController.h */,
+				878EC543236FC84200426F37 /* AWTNextViewController.m */,
+				878EC544236FC84200426F37 /* AWTNextViewController.xib */,
+				87414F002367059400E2FCB1 /* AWTSendVideoViewController.h */,
+				87414F012367059400E2FCB1 /* AWTSendVideoViewController.m */,
+				87FBBD86236BC898007E2B0D /* AWTSendVideoViewController.xib */,
+				18C4ECA9236EDA1C00470E90 /* AWTSendPhotoViewController.h */,
+				18C4ECAA236EDA1C00470E90 /* AWTSendPhotoViewController.m */,
+				18C4ECAB236EDA1C00470E90 /* AWTSendPhotoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		879ACD63236287870027C080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		879ACD64236287870027C080 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C4ECAE236EDF7600470E90 /* TZTestCell.h */,
+				18C4ECAF236EDF7600470E90 /* TZTestCell.m */,
+				87FBBD8A236BD435007E2B0D /* ShootVideoView */,
+				87FBBD88236BD3C1007E2B0D /* SendVideoView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		879ACD65236287870027C080 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD6E236298A80027C080 /* Category */,
+				18369959236C78220008F6CC /* DeviceDirection.h */,
+				1836995A236C78220008F6CC /* DeviceDirection.m */,
+				18D3727D23643A1400662731 /* AWTCaptureVideoTool.h */,
+				18D3727E23643A1400662731 /* AWTCaptureVideoTool.m */,
+				188328642369E465007E691F /* AWTVideoEditorTool.h */,
+				188328652369E465007E691F /* AWTVideoEditorTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		879ACD6E236298A80027C080 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				879ACD752362994E0027C080 /* UIView+AWTView.h */,
+				879ACD762362994E0027C080 /* UIView+AWTView.m */,
+				879ACD822362E8B90027C080 /* UIColor+Hex.h */,
+				879ACD832362E8B90027C080 /* UIColor+Hex.m */,
+				180582BB2365A41B001F8C80 /* NSFileManager+Additions.h */,
+				180582BC2365A41B001F8C80 /* NSFileManager+Additions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		87FBBD88236BD3C1007E2B0D /* SendVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				87FBBD97236BD47D007E2B0D /* AWTSendVideoTextView.h */,
+				87FBBD98236BD47D007E2B0D /* AWTSendVideoTextView.m */,
+			);
+			path = SendVideoView;
+			sourceTree = "<group>";
+		};
+		87FBBD8A236BD435007E2B0D /* ShootVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				87FBBD91236BD44E007E2B0D /* AWTOverLayView.h */,
+				87FBBD90236BD44E007E2B0D /* AWTOverLayView.m */,
+				87FBBD8B236BD44D007E2B0D /* AWTPhotoView.h */,
+				87FBBD8E236BD44E007E2B0D /* AWTPhotoView.m */,
+				87FBBD8F236BD44E007E2B0D /* AWTPrevieView.h */,
+				87FBBD92236BD44E007E2B0D /* AWTPrevieView.m */,
+				87FBBD8C236BD44D007E2B0D /* AWTRleaseBtn.h */,
+				87FBBD8D236BD44D007E2B0D /* AWTRleaseBtn.m */,
+			);
+			path = ShootVideoView;
+			sourceTree = "<group>";
+		};
+		EECB01ADFE8805AA0862D12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E02F98D6E0A833322444E /* Pods_AWT_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879ACD2A236280000027C080 /* AWT_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879ACD57236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOS" */;
+			buildPhases = (
+				37989B992DD1EEDBCD362D6F /* [CP] Check Pods Manifest.lock */,
+				879ACD27236280000027C080 /* Sources */,
+				879ACD28236280000027C080 /* Frameworks */,
+				879ACD29236280000027C080 /* Resources */,
+				DC74FF4E7BA4F9C2BEE5D6AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWT_iOS;
+			productName = AWT_iOS;
+			productReference = 879ACD2B236280000027C080 /* AWT_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879ACD42236280000027C080 /* AWT_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879ACD5A236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOSTests" */;
+			buildPhases = (
+				879ACD3F236280000027C080 /* Sources */,
+				879ACD40236280000027C080 /* Frameworks */,
+				879ACD41236280000027C080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879ACD45236280000027C080 /* PBXTargetDependency */,
+			);
+			name = AWT_iOSTests;
+			productName = AWT_iOSTests;
+			productReference = 879ACD43236280000027C080 /* AWT_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		879ACD4D236280000027C080 /* AWT_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879ACD5D236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOSUITests" */;
+			buildPhases = (
+				879ACD4A236280000027C080 /* Sources */,
+				879ACD4B236280000027C080 /* Frameworks */,
+				879ACD4C236280000027C080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879ACD50236280000027C080 /* PBXTargetDependency */,
+			);
+			name = AWT_iOSUITests;
+			productName = AWT_iOSUITests;
+			productReference = 879ACD4E236280000027C080 /* AWT_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879ACD23236280000027C080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = wtoip_mac;
+				TargetAttributes = {
+					879ACD2A236280000027C080 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1010;
+					};
+					879ACD42236280000027C080 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 879ACD2A236280000027C080;
+					};
+					879ACD4D236280000027C080 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 879ACD2A236280000027C080;
+					};
+				};
+			};
+			buildConfigurationList = 879ACD26236280000027C080 /* Build configuration list for PBXProject "AWT_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879ACD22236280000027C080;
+			productRefGroup = 879ACD2C236280000027C080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879ACD2A236280000027C080 /* AWT_iOS */,
+				879ACD42236280000027C080 /* AWT_iOSTests */,
+				879ACD4D236280000027C080 /* AWT_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879ACD29236280000027C080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879ACD3B236280000027C080 /* LaunchScreen.storyboard in Resources */,
+				87FBBD87236BC898007E2B0D /* AWTSendVideoViewController.xib in Resources */,
+				878EC54B23702E5200426F37 /* AWTPermissionsViewController.xib in Resources */,
+				87414EFD2366FBA300E2FCB1 /* AWTVideoViewController.xib in Resources */,
+				879ACD38236280000027C080 /* Assets.xcassets in Resources */,
+				186A794B236DDF40006CC7A0 /* TZImagePickerController.bundle in Resources */,
+				87414EFF2366FBA300E2FCB1 /* AWTReleaseHomeViewController.xib in Resources */,
+				18C4ECAD236EDA1C00470E90 /* AWTSendPhotoViewController.xib in Resources */,
+				878EC546236FC84200426F37 /* AWTNextViewController.xib in Resources */,
+				879ACD36236280000027C080 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD41236280000027C080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD4C236280000027C080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37989B992DD1EEDBCD362D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWT_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC74FF4E7BA4F9C2BEE5D6AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWT_iOS/Pods-AWT_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWT_iOS/Pods-AWT_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879ACD27236280000027C080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3727F23643A1400662731 /* AWTCaptureVideoTool.m in Sources */,
+				18C4ECB0236EDF7600470E90 /* TZTestCell.m in Sources */,
+				879ACD33236280000027C080 /* ViewController.m in Sources */,
+				879ACD3E236280000027C080 /* main.m in Sources */,
+				186A7947236DDF40006CC7A0 /* TZAssetModel.m in Sources */,
+				87414F022367059400E2FCB1 /* AWTSendVideoViewController.m in Sources */,
+				1836995B236C78220008F6CC /* DeviceDirection.m in Sources */,
+				188328662369E465007E691F /* AWTVideoEditorTool.m in Sources */,
+				186A794D236DDF40006CC7A0 /* TZImageManager.m in Sources */,
+				186A7951236DDF40006CC7A0 /* TZLocationManager.m in Sources */,
+				87FBBD93236BD44E007E2B0D /* AWTRleaseBtn.m in Sources */,
+				186A7949236DDF40006CC7A0 /* UIView+Layout.m in Sources */,
+				87FBBD94236BD44E007E2B0D /* AWTPhotoView.m in Sources */,
+				879ACD842362E8B90027C080 /* UIColor+Hex.m in Sources */,
+				87FBBD96236BD44E007E2B0D /* AWTPrevieView.m in Sources */,
+				186A7945236DDF40006CC7A0 /* TZAssetCell.m in Sources */,
+				18C4ECAC236EDA1C00470E90 /* AWTSendPhotoViewController.m in Sources */,
+				87FBBD95236BD44E007E2B0D /* AWTOverLayView.m in Sources */,
+				879ACD772362994E0027C080 /* UIView+AWTView.m in Sources */,
+				186A7948236DDF40006CC7A0 /* NSBundle+TZImagePicker.m in Sources */,
+				878EC54A23702E5200426F37 /* AWTPermissionsViewController.m in Sources */,
+				87414EFE2366FBA300E2FCB1 /* AWTReleaseHomeViewController.m in Sources */,
+				186A7946236DDF40006CC7A0 /* TZVideoPlayerController.m in Sources */,
+				186A7952236DDF40006CC7A0 /* TZGifPhotoPreviewController.m in Sources */,
+				87414EFC2366FBA300E2FCB1 /* AWTVideoViewController.m in Sources */,
+				186A794A236DDF40006CC7A0 /* TZPhotoPreviewController.m in Sources */,
+				186A794F236DDF40006CC7A0 /* TZPhotoPreviewCell.m in Sources */,
+				186A7950236DDF40006CC7A0 /* TZImagePickerController.m in Sources */,
+				878EC545236FC84200426F37 /* AWTNextViewController.m in Sources */,
+				186A794E236DDF40006CC7A0 /* TZPhotoPickerController.m in Sources */,
+				180582BD2365A41B001F8C80 /* NSFileManager+Additions.m in Sources */,
+				186A7944236DDF40006CC7A0 /* TZImageCropManager.m in Sources */,
+				186A794C236DDF40006CC7A0 /* TZProgressView.m in Sources */,
+				87FBBD99236BD47D007E2B0D /* AWTSendVideoTextView.m in Sources */,
+				879ACD30236280000027C080 /* AppDelegate.m in Sources */,
+				186A7953236DDF40006CC7A0 /* TZImageRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD3F236280000027C080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879ACD48236280000027C080 /* AWT_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879ACD4A236280000027C080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879ACD53236280000027C080 /* AWT_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879ACD45236280000027C080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879ACD2A236280000027C080 /* AWT_iOS */;
+			targetProxy = 879ACD44236280000027C080 /* PBXContainerItemProxy */;
+		};
+		879ACD50236280000027C080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879ACD2A236280000027C080 /* AWT_iOS */;
+			targetProxy = 879ACD4F236280000027C080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879ACD34236280000027C080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879ACD35236280000027C080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879ACD39236280000027C080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879ACD3A236280000027C080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879ACD55236280000027C080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		879ACD56236280000027C080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879ACD58236280000027C080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52222965891B8D36F03CC6A /* Pods-AWT_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MB8YH4F5W6;
+				INFOPLIST_FILE = AWT_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWT_iOS/Release/AWT_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879ACD59236280000027C080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560C0D91FC37ED0D63B36013 /* Pods-AWT_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MB8YH4F5W6;
+				INFOPLIST_FILE = AWT_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWT_iOS/Release/AWT_iOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		879ACD5B236280000027C080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWT_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWT_iOS.app/AWT_iOS";
+			};
+			name = Debug;
+		};
+		879ACD5C236280000027C080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWT_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWT_iOS.app/AWT_iOS";
+			};
+			name = Release;
+		};
+		879ACD5E236280000027C080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWT_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWT_iOS;
+			};
+			name = Debug;
+		};
+		879ACD5F236280000027C080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWT_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AWT-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AWT_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879ACD26236280000027C080 /* Build configuration list for PBXProject "AWT_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879ACD55236280000027C080 /* Debug */,
+				879ACD56236280000027C080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879ACD57236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879ACD58236280000027C080 /* Debug */,
+				879ACD59236280000027C080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879ACD5A236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879ACD5B236280000027C080 /* Debug */,
+				879ACD5C236280000027C080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879ACD5D236280000027C080 /* Build configuration list for PBXNativeTarget "AWT_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879ACD5E236280000027C080 /* Debug */,
+				879ACD5F236280000027C080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879ACD23236280000027C080 /* Project object */;
+}
